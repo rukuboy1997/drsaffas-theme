@@ -1,7 +1,17 @@
 <html>
   <head>
-     <title></title>
+    <title></title>
+    <b:skin>
+      <![CDATA[
+	       /****CSS CODE*****/
+      ]]>
+    </b:skin>
   </head>
   <body>
+    <b:section id="header" class="header"></b:section>
+    <b:section class='main' id='main' showaddelement='yes'>
+      <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1'/>
+</b:section>
+    <b:section id="footer" class="footer"></b:section>
   </body>
 </html>
