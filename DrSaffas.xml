@@ -1,11 +1,12 @@
-<html>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title></title>
-    <b:skin>
-      <![CDATA[
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+    <script src='https://cdn.tailwindcss.com'/>
+    <title/>
+    <b:skin><![CDATA[
+      
 	       /****CSS CODE*****/
          .hearder,
          .content,
@@ -14,14 +15,14 @@
          .footer {
           display:block;
          }
-      ]]>
-    </b:skin>
+      
+    ]]></b:skin>
   </head>
   <body>
-    <b:section id="header" class="header"></b:section>
-    <b:section id="content" class="content"></b:section>
-    <b:section id="main" class="main"></b:section>
-    <b:section id="sidebar" class="sidebar"></b:section>
-    <b:section id="footer" class="footer"></b:section>
+    <b:section class='header' id='header'/>
+    <b:section class='content' id='content'/>
+    <b:section class='main' id='main'/>
+    <b:section class='sidebar' id='sidebar'/>
+    <b:section class='footer' id='footer'/>
   </body>
 </html>
